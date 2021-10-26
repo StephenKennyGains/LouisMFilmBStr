@@ -12,6 +12,11 @@ body {
 
 .navbar-brand {
     font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav {
+    font-size: 1.25rem;
 }
 
 .navbar-expand-lg .navbar-collapse {
