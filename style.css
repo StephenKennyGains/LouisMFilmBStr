@@ -17,3 +17,7 @@ body {
 .navbar-expand-lg .navbar-collapse {
     justify-content: flex-end;
 }
+
+.navbar-dark .navbar-toggler {
+    border: none;
+}
