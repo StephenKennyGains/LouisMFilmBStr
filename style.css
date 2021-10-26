@@ -21,3 +21,28 @@ body {
 .navbar-dark .navbar-toggler {
     border: none;
 }
+
+.contact-methods{
+    font-size: 2rem;
+}
+
+.contact-methods a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-methods a:hover {
+    color: yellow;
+}
+
+.video-border-yellow {
+    border: 3px solid rgb(221, 221, 0);
+}
+
+.video-border-red {
+    border: 3px solid rgb(204, 0, 0);
+}
+
+.video-border-blue {
+    border: 3px solid rgb(8, 184, 238);
+}
