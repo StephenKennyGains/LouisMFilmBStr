@@ -29,6 +29,9 @@ body {
 
 .home-main-image {
     background-image: url(assets/images/pageheader.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 80vh;
     max-width: auto;
 }
@@ -38,6 +41,10 @@ body {
     height: 250px;
     border-radius: 50%;
     border: 2px solid white;
+}
+
+.bio-info {
+    font-size: 1.5rem;
 }
 
 .contact-methods{
@@ -81,4 +88,9 @@ body {
     text-decoration: none;
     font-size: 2rem;
     color: white;
+}
+
+@media(max-width: 440px){
+
+
 }
