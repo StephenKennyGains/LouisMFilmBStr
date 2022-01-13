@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
 
+/* Site Wide */
+
 body {
     background-color: black;
     font-family: 'Lato', sans-serif;
@@ -27,6 +29,14 @@ body {
     border: none;
 }
 
+.footer-nav a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+
+/* Home Page */
+
 .home-main-image {
     background-image: url(assets/images/pageheader.png);
     background-position: center;
@@ -47,6 +57,13 @@ body {
     font-size: 1.5rem;
 }
 
+.testimonials {
+    background-color: rgb(207, 207, 207);
+    color: black;
+}
+
+/* Contact Page */
+
 .contact-methods{
     font-size: 2rem;
 }
@@ -58,6 +75,13 @@ body {
 
 .contact-methods a:hover {
     color: yellow;
+}
+
+/* Work Page */
+
+.btn {
+    background-color: rgb(221, 221, 0);
+    color: white;
 }
 
 .video-border-yellow {
@@ -79,16 +103,9 @@ body {
     background-color: rgb(0, 195, 255);
 }
 
-.testimonials {
-    background-color: rgb(207, 207, 207);
-    color: black;
-}
 
-.footer-nav a {
-    text-decoration: none;
-    font-size: 2rem;
-    color: white;
-}
+
+
 
 @media(max-width: 440px){
 
