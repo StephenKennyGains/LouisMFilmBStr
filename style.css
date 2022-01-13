@@ -79,9 +79,19 @@ body {
 
 /* Work Page */
 
-.btn {
+.btn-commercial {
     background-color: rgb(221, 221, 0);
-    color: white;
+    color: black;
+}
+
+.btn-music {
+    background-color: rgb(8, 184, 238);
+    color: black;
+}
+
+.btn-docs {
+    background-color: rgb(204, 0, 0);
+    color: black;
 }
 
 .video-border-yellow {
